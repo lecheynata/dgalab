@@ -1,3 +1,11 @@
+# APIRest - Customers
+
+## Requerimientos técnicos
+
+* PHP >= 8.0.
+* Composer >= 2.3.7.
+* Docker Desktop >= 4.9.1 (Solo entorno desarrollo).
+
 ## Make
 
 Para inicalizar el proyecto siga los siguientes comandos:
