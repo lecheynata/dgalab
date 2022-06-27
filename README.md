@@ -11,15 +11,15 @@ make build
 
 ## Configurar variables de entorno
 
-**Asignar los parametros de conexión por defecto generados al levantar una aplicación con laravel sail.
+**Asignar los parametros siguientes de conexión por defecto para conectar a la base de datos.
 
 ```
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
-DB_DATABASE=example_app
-DB_USERNAME=sail
-DB_PASSWORD=password
+DB_DATABASE=testing
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 
 ## Inicializar Aplicación
