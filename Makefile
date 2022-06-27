@@ -1,8 +1,10 @@
 env_file:
 	cd svcustomers && cp .env.example .env
 
-up:
+build:
 	cd svcustomers && composer install
+
+up:
 	cd svcustomers && ./vendor/bin/sail up
 
 down:
