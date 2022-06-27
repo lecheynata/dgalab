@@ -3,14 +3,14 @@ build:
 	cd svcustomers && composer install
 
 up:
-	cd svcustomers && ./vendor/bin/sail up
+	cd svcustomers && ./vendor/bin/sail up -d
 
 down:
-	cd svcustomers && ./vendor/bin/sail down
+	cd svcustomers && ./vendor/bin/sail stop
 
 restart:
-	cd svcustomers && ./vendor/bin/sail down
-	cd svcustomers && ./vendor/bin/sail up
+	cd svcustomers && ./vendor/bin/sail stop
+	cd svcustomers && ./vendor/bin/sail up -d
 
 populate_db:
 	cd svcustomers && ./vendor/bin/sail artisan migrate
