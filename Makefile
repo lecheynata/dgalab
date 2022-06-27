@@ -1,7 +1,5 @@
-env_file:
-	cd svcustomers && cp .env.example .env
-
 build:
+	cd svcustomers && cp .env.example .env
 	cd svcustomers && composer install
 
 up:
