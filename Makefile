@@ -1,6 +1,9 @@
 up:
 	cd svcustomers && ./vendor/bin/sail up
 
+down:
+	cd svcustomers && ./vendor/bin/sail down
+
 restart:
 	cd svcustomers && ./vendor/bin/sail down
 	cd svcustomers && ./vendor/bin/sail up
