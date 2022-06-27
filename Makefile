@@ -6,7 +6,7 @@ populate_db:
 	cd svcustomers && ./vendor/bin/sail artisan db:seed --class=DatabaseSeeder
 
 repopulate_db:
-	cd svcustomers && ./vendor/bin/sail artisan db:fresh
+	cd svcustomers && ./vendor/bin/sail artisan migrate:fresh
 	cd svcustomers && ./vendor/bin/sail artisan db:seed --class=DatabaseSeeder
 
 modules_clone:
