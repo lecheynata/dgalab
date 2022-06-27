@@ -1,3 +1,6 @@
+env_file:
+	cd svcustomers && cp .env.example .env
+
 up:
 	cd svcustomers && composer install
 	cd svcustomers && ./vendor/bin/sail up
