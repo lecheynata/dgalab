@@ -17,7 +17,7 @@ repopulate_db:
 	cd svcustomers && ./vendor/bin/sail artisan db:seed --class=DatabaseSeeder
 
 modules_clone:
-	git clone https://github.com/lecheynata/dgalab.git svcustomers
+	git clone https://github.com/lecheynata/gdalab-customers.git svcustomers
 
 modules_update:
 	cd svcustomers && git fetch && git pull
