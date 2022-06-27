@@ -1,11 +1,32 @@
-## Make + Docker
+## Make
 
-Para ejecutar con Docker siga los siguientes comandos:
+Para inicalizar el proyecto siga los siguientes comandos:
 
 ```
 git clone https://github.com/lecheynata/dgalab.git
 cd gdalab
 make modules_clone
+make build
+```
+
+## Configurar variables de entorno
+
+**Asignar los parametros de conexión por defecto generados al levantar una aplicación con laravel sail.
+
+```
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=example_app
+DB_USERNAME=sail
+DB_PASSWORD=password
+```
+
+## Inicializar Aplicación
+
+**Ejecutar el siguiente comando para inicializar la aplicación dentro de un entorno Docker.
+
+```
 make up
 ```
 
