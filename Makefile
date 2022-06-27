@@ -1,4 +1,5 @@
 up:
+	cd svcustomers && composer install
 	cd svcustomers && ./vendor/bin/sail up
 
 down:
