@@ -3,7 +3,7 @@
 Para inicalizar el proyecto siga los siguientes comandos:
 
 ```
-git clone https://github.com/lecheynata/dgalab.git
+git clone https://github.com/lecheynata/gdalab.git
 cd gdalab
 make modules_clone
 make build
